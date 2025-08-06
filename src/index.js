@@ -87,13 +87,3 @@ seriesConf.forEach((conf, iSeries) => {
             }, 30)
         })
 })
-
-// Add LegendBox to chart.
-const legend = chart3D
-    .addLegendBox()
-    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
-    .setAutoDispose({
-        type: 'max-width',
-        maxWidth: 0.3,
-    })
-    .add(chart3D)
