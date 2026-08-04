@@ -39,10 +39,10 @@ The series accepts points in format `{ x: number, y: number, z:number }`. Any nu
 
 ```javascript
 // Single point.
-series.add({ x: 50, y: 60, z: 40 })
+series.appendJSON([{ x: 50, y: 60, z: 40 }])
 
 // Multiple points at once.
-series.add([
+series.appendJSON([
     { x: 55, y: 60, z: 60 },
     { x: 60, y: 62, z: 50 },
     { x: 65, y: 65, z: 60 },
@@ -77,6 +77,6 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2026. All rights reserved.
 
 
-[3D chart]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/Chart3D.html
-[3D line series]: https://lightningchart.com/js-charts/api-documentation/v8.3.0/classes/LineSeries3D.html
+[3D chart]: https://lightningchart.com/js-charts/api-documentation/v9.0.0/classes/Chart3D.html
+[3D line series]: https://lightningchart.com/js-charts/api-documentation/v9.0.0/classes/LineSeries3D.html
 

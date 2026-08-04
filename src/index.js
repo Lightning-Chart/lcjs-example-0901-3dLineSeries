@@ -85,7 +85,7 @@ seriesConf.forEach((conf, iSeries) => {
             setInterval(() => {
                 const batch = data.splice(0, 3)
                 if (batch.length > 0) {
-                    series.add(batch)
+                    series.appendJSON(batch)
                     totalDataAmount += batch.length
                     chart3D.setTitle(`3D Line Series (${totalDataAmount} data points)`)
                 }
